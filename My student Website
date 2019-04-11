@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<title>Student Website :D</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src="file:///C:/Users/THINKPAD/Desktop/website/Images/topleft%20bitch.jpg" alt="meme" class="w3-image width="48" height="48">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> Callum Movric.</h1>
+    <p>Mouth-breather and aspiring skater</p>
+    <img src="file:///C:/Users/THINKPAD/Desktop/website/Images/callum.jpg" alt="boy" class="w3-image" width="960" height="540">
+  </header>
+
+  <!-- personal info section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">Some Personal Info</h2>
+    <hr style="width:978px" class="w3-opacity">
+    <p>My names is Callum Movric. My Student ID is S3793995 and my Student email is S3793995@student.rmit.edu.au. I was born in Tasmania and 
+have lived there for most of my life. I am currently living in Victoria. I left year 12 early and now I am doing a IT and programming course so I can 
+become degree admitted and start a bachelor in IT or Computer Science. I am currently working part time at officeworks. I used to spend all of my spare time
+playing Counter-Strike Global Offensive but now I spend my time learning to skate, listening to music, and watching youtube.
+    </p>
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">My Learning Style and Personality Type</h2>
+    <hr style="width:978px" class="w3-opacity">
+<p>After taking the Educationplanner.org "Whats your Learning Style?" test. I found out that I am mainly a auditory learner. I find this very interesting because
+I took a similar test to this in grade 7 which is roughly 6 years ago. The results I got from that test was that I was a visual learner more than anything else.
+</p>
+<li> Auditory: 40%</li>
+<li> Visual: 35%</li>
+<li> Tactile: 25%</li>
+<p>Campainer ENFP-T is what I got after completing the personality test from 16personalities.com. 
+I found the test to be very accurate in that I am Extroverted (67% percent to be exact). The results continue to speak truths
+about how interact with my colleagues. The article explains that I view colleagues as friends, people who I show genuine interest in 
+and care for. I find this so accurate as I enjoy spending time with people at work. More details on what exactly a 
+Campaigner ENFP-T can be found here: <a href= "https://www.16personalities.com/enfp-personality"> 16personalities.com/enfp-personality</a> </p>
+
+
+   <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">My Interest in IT</h2>
+    <hr style="width:978px" class="w3-opacity">
+    <p>My names is Callum Movric. My Student ID is S3793995 and my Student email is S3793995@student.rmit.edu.au. I was born in Tasmania and 
+have lived there for most of my life. I am currently living in Victoria. I left year 12 early and now I am doing a IT and programming course so I can 
+become degree admitted and start a bachelor in IT or Computer Science. I am currently working part time at officeworks. I used to spend all of my spare time
+playing Counter-Strike Global Offensive but now I spend my time learning to skate, listening to music, and watching youtube.
+    </p>
+    
+<div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">My Ideal Job</h2>
+    <hr style="width:978px" class="w3-opacity">
+    <p> My ideal Job is a software engineer/developer. I have a lot of different career paths I am interested in, but all of them revolve around being a software engineer or developer.
+I have a dream career in video game development, specifically creating my own engine. I would love to create a team of like minded people working towards the same goal,
+creating a story and world full of exploration. I would be working with pre-built software (commonly know as "engines") using C/C++ and API's making sure that idea's and concepts
+transition into the game smoothly.
+ </p>
+
+<div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">My IT Project</h2>
+    <hr style="width:978px" class="w3-opacity">
+<p>
+</p>    
+
+  
+
+  
+    <!-- Footer -->
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+    <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+  <!-- End footer -->
+  </footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>
